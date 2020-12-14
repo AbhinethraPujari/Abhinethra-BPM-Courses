@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  text-align: center;
+  /*Text-align works for all elements in the HTMl that are */
+  font-family: 'Merriweather', serif;
+  font-size: 1em;
+}
+
+h1 {
+  /* width: 15%; */
+  font-size: 4.50rem;
+  /*em font is added to the parent font size ,here parent is body element,if you want to specifically use the font then use rem =root em */
+  /* 100%=16px=1em */
+  /* margin: 0 auto 0 auto; */
+  margin: 50px auto 0 auto;
+  line-height: 1;
+  font-family: 'Sacramento', serif;
+  color: #66BFBF;
+}
+
+h2 {
+  /* font-size: 1.2rem; */
+  margin: 0 auto 10px auto;
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  font-weight: normal;
+  line-height:2;
+}
+
+h3 {
+  /* width: ; */
+  font-size: 0.8rem;
+  margin: 0 auto 0 auto;
+  font-family: 'Merriweather', serif;
+  color: #11999E;
+  font-weight: normal;
+  line-height:2;
+}
+
+/* class selectors */
+
+.workflow-cloud {
+  /* border-radius: 10% 30% 50% 70%; */
+  margin: 25px auto 25px auto;
+  border-radius: 80%;
+  background-size: 50px;
+  width:25%;
+}
+
+.image-css {
+  /* border-radius: 10% 30% 50% 70%; */
+  margin: 25px auto 25px auto;
+  border-radius: 60%;
+  background-size: 50px;
+}
+.RHPAM-css{
+  margin: 25px auto 25px auto;
+  border-radius: 60%;
+  background-size: 50px;
+  width:25%;
+}
+.camunda-css{
+  margin: 25px auto 25px auto;
+   border-radius: 60%;
+  background-size: 50px;
+  width:25%;
+}
+.bonita-css{
+  margin: 25px auto 25px auto;
+   border-radius: 50%;
+  background-size: 50px;
+  width:25%;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: #E4F9F5;
+}
+
+.bottom-container {
+  background-color: #E4F9F5;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 15%;
+  bottom: 50px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align:left;
+  line-height:2;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 20%;
+  top: 50px;
+}
