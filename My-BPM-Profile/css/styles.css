@@ -46,6 +46,15 @@ p{
   line-height: 2;
 }
 
+
+hr {
+  border-style:none;
+  border-top-style: dotted;
+  border-color:grey;
+  border-width:9px;
+  width:5%;
+}
+
 /* class selectors */
 .workflow-cloud {
   /* border-radius: 10% 30% 50% 70%; */
